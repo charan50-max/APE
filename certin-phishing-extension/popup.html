@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Anti-Phishing Shield</title>
+  <style>
+    body {
+      font-family: Arial;
+      width: 300px;
+      padding: 10px;
+    }
+    h2 {
+      margin: 0 0 10px 0;
+    }
+    .status {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .alert {
+      border-bottom: 1px solid #ddd;
+      padding: 8px 0;
+      font-size: 12px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background: #d93025;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🛡 Anti-Phishing Shield</h2>
+  <div class="status">Status: Active Protection</div>
+
+  <h3>Recent Alerts</h3>
+  <div id="alertsContainer">
+    No phishing alerts yet.
+  </div>
+
+  <button id="clearLogs">Clear Logs</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
