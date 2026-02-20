@@ -1,4 +1,4 @@
-# 🛡 AI Anti-Phishing Shield
+# 🛡 AI Anti-Phishing Extension
 
 AI Anti-Phishing Shield is a Chrome extension with a FastAPI backend that detects phishing emails in Gmail in real time using a heuristic risk scoring engine.
 
